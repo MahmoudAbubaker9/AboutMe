@@ -39,3 +39,28 @@ switch(myDesgin) {
         alert('It is a good and fun thing to try it')
 }
 //console.log(myDesgin)
+
+let myMovies = prompt('Do you like the Movies or Series??')
+myMovies = myMovies.toLowerCase()
+switch(myMovies) {
+    case 'yes':
+        alert('It is a good thing, about myself, I prefer series more than movies (the best series for me The mentalist)')
+        break;
+    case 'no':
+        alert('It is a good and fun thing to try it')
+}
+
+//console.log(myMovies)
+
+let myAge = prompt('Last question!! did you know my age?')
+myAge = myAge.toLowerCase()
+switch(myAge) {
+    case 'yes':
+        alert('nice ' + userName)
+        break;
+    case 'no':
+        alert('my age is 28 ')
+}
+//console.log(myAge)
+
+alert('nice to meet you ' + userName + ' have good day, On the page there is my full information about me, you can view it')
