@@ -1,0 +1,27 @@
+h1{
+    background-color: darkslategray;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: x-large;
+}
+
+#Wel {
+    background-color: skyblue;
+    text-align: center;
+    font-size: large;
+    color: rgb(105, 0, 23);
+}
+
+#D1 {
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: x-large;
+}
+
+#D2 {
+    background-color: skyblue;
+    text-align: center;
+    font-size: large;
+    color: rgb(105, 0, 23);
+}
