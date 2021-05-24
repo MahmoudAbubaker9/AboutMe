@@ -29,4 +29,13 @@ switch(prog) {
 }
 //console.log(prog)
 
-
+let myDesgin = prompt('Do you like the design??')
+myDesgin = myDesgin.toLowerCase()
+switch(myDesgin) {
+    case 'yes':
+        alert('Well, I can design with multiple programs like Photoshop, its my hobby')
+        break;
+    case 'no':
+        alert('It is a good and fun thing to try it')
+}
+//console.log(myDesgin)
