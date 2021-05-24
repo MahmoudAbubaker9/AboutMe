@@ -16,3 +16,17 @@ switch(myName) {
         alert('my name is mahmoud abubaker')
 }
 //console.log(myName)
+
+
+let prog = prompt('did you like programing?')
+prog = prog.toLowerCase()
+switch(prog) {
+    case 'yes':
+        alert('nice me too')
+        break;
+    case 'no':
+        alert('It is a good and fun thing to try it')
+}
+//console.log(prog)
+
+
