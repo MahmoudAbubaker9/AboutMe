@@ -26,51 +26,51 @@ switch(myName) {
 //console.log(myName)
 
 
-let prog = prompt('did you like programing?')
+let prog = prompt('Do I like programming?')
 prog = prog.toLowerCase()
 switch(prog) {
     case 'yes':
     case 'y':
-        alert('nice me too')
+        alert('Thats right i do programming ')
         finalScore++;
         break;
     case 'no':
     case 'n':
-        alert('It is a good and fun thing to try it')
+        alert('Wrong! i do like programming ')
         break;
     default:
         alert('Please enter Yes or No')
 }
 //console.log(prog)
 
-let myDesgin = prompt('Do you like the design??')
+let myDesgin = prompt('Do I like the design??')
 myDesgin = myDesgin.toLowerCase()
 switch(myDesgin) {
     case 'yes':
     case 'y':
-        alert('Well, I can design with multiple programs like Photoshop, its my hobby')
+        alert('Thats right i do like design, and I can design with multiple programs like Photoshop, its my hobby')
         finalScore++;
         break;
     case 'no':
     case 'n':
-        alert('It is a good and fun thing to try it')
+        alert('Wrong! i do like design')
         break;
     default:
         alert('Please enter Yes or No')
 }
 //console.log(myDesgin)
 
-let myMovies = prompt('Do you like the Movies or Series??')
+let myMovies = prompt('Do I like the Movies or Series??')
 myMovies = myMovies.toLowerCase()
 switch(myMovies) {
     case 'yes':
     case 'y':
-        alert('It is a good thing, about myself, I prefer series more than movies (the best series for me The mentalist)')
+        alert('Thats right i do them, about myself, I prefer series more than movies (the best series for me The mentalist)')
         finalScore++;
         break;
     case 'no':
     case 'n':
-        alert('It is a good and fun thing to try it')
+        alert('Wrong! i do like Movies and Series')
         break;
     default:
         alert('Please enter Yes or No')
@@ -78,17 +78,17 @@ switch(myMovies) {
 
 //console.log(myMovies)
 
-let myAge = prompt('Last question!! did you know my age?')
+let myAge = prompt('Do I like the Video Game?')
 myAge = myAge.toLowerCase()
 switch(myAge) {
     case 'yes':
     case 'y':
-        alert('nice ' + userName)
+        alert(' I do like video games, but unfortunately I do not have enough :(')
         finalScore++;
         break;
     case 'no':
     case 'n':
-        alert('my age is 28 ')
+        alert('Wrong! i do like Video Game ')
         break;
     default:
         alert('Please enter Yes or No')
