@@ -6,41 +6,26 @@ h1{
 }
 
 #Wel {
-    background-color: skyblue;
-    text-align: center;
     font-size: large;
-    color: rgb(105, 0, 23);
-}
-
-#D1 {
-    background-color: skyblue;
     color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: x-large;
-}
-
-#D2 {
-    background-color: skyblue;
-    text-align: center;
-    font-size: large;
-    color: rgb(105, 0, 23);
-}
-
-h3 {
-    background-color: skyblue;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: x-large;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ol li {
-    background-color: skyblue;
-    color: rgb(63, 0, 0);
     font-size: large;
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul li {
-    background-color: skyblue;
-    color: rgb(63, 0, 0);
-    font-size: medium;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(https://www.wallpapertip.com/wmimgs/66-666816_hd-web-background.jpg);
 }

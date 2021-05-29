@@ -13,7 +13,7 @@ let myName = prompt('did you know my name?')
 function Ques2(myName) {
 
 myName = myName.toLowerCase()
-console.log(myName)
+// console.log(myName)
 switch(myName) {
     case 'yes':
     case 'y':    
@@ -29,7 +29,7 @@ switch(myName) {
         return myName;
         
 }
-console.log(myName)
+// console.log(myName)
 }
 Ques2(myName);
 
@@ -74,7 +74,7 @@ switch(myDesgin) {
 }return(myDesgin);
 }
 Ques4(myDesgin); 
-console.log(myDesgin)
+// console.log(myDesgin)
 
 function Ques5 () {
 let myMovies = prompt('Do I like the Series??')
@@ -98,27 +98,26 @@ Ques5 ();
 
 //console.log(myMovies)
 
-let myAge = prompt('Do I like the Video Game?')
+let myAge = prompt('Do I like the Travel?')
 function Ques6(myAge) {
 myAge = myAge.toLowerCase()
 switch(myAge) {
     case 'yes':
     case 'y':
-        alert(' I do like video games, but unfortunately I do not have enough time :(')
+        alert(' I do like Travel')
         finalScore++;
         break;
     case 'no':
     case 'n':
-        alert('Wrong! i do like Video Game ')
+        alert('Wrong! i do like Travel ')
         break;
     default:
         alert('Please enter Yes or No')
         
 }
 }Ques6(myAge)
-console.log(myAge)
+// console.log(myAge)
 
-alert('nice to meet you ' + userName + ' have good day, On the page there is my full information about me, you can view it')
 function Ques7() {
 let numberofGuess = 4;
 let correctAnswe = 5
@@ -169,3 +168,4 @@ if (chech){
 }Ques8();
 
 alert('Thanks you for answering all questions your score is  ' + finalScore +' of 7')
+alert('nice to meet you ' + userName + ' have good day, On the page there is my full information about me, you can view it')
